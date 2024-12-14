@@ -1,8 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Language Podcast App with Text-to-Speech
+
+A Next.js application that converts text to speech with real-time word highlighting, built using Next.js 14 and ElevenLabs TTS API.
+
+## Features
+
+- Text-to-Speech conversion with ElevenLabs API
+- Real-time word highlighting during playback
+- Text editing capabilities
+- Audio caching to reduce API calls
+- Responsive design with dark mode support
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+ 
+- npm or yarn
+- ElevenLabs API key
+
+### Environment Setup
+
+1. Create a `.env.local` file in the root directory:
 
 ```bash
 npm run dev
