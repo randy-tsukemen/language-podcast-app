@@ -94,11 +94,10 @@ export default function TTSPlayer({ text: initialText, title = "NOW PLAYING", on
 
       if (!saveResponse.ok) throw new Error('Failed to save audio');
 
-      const { audioUrl: savedAudioUrl } = await saveResponse.json();
-      setAudioUrl(savedAudioUrl);
+      const { audioUrl } = await saveResponse.json();
       
       if (audioRef.current) {
-        audioRef.current.src = savedAudioUrl;
+        audioRef.current.src = audioUrl;
         await audioRef.current.play();
         setIsPlaying(true);
       }
