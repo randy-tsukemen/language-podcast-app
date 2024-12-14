@@ -9,6 +9,7 @@ A Next.js application that converts text to speech with real-time word highlight
 - Text editing capabilities
 - Audio caching to reduce API calls
 - Responsive design with dark mode support
+![image](https://github.com/user-attachments/assets/253f4dda-3478-47c2-afff-70a724914da3)
 
 ## Getting Started
 
